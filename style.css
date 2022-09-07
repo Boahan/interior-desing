@@ -64,8 +64,11 @@ body{
       justify-content: space-between;
 }
 .content h1{
+   font-weight: 700;
       margin-top: 150px;
+      font-size: 100px;
     margin-bottom: 0px;
+}
 }
 .content p{
       margin-top: 0px;

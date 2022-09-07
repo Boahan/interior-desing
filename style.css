@@ -203,7 +203,7 @@ slide-show*{
 
 }
 .slide-show:hover{
-      transition: all 0.5s linear;
+      transition: all 0.7s linear;
       cursor: pointer;
       transform: scale(1.03);
 }

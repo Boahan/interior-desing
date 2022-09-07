@@ -198,7 +198,6 @@ slide-show*{
       display: grid;
       align-content: center;
       background-image: url("images/a.jpg");
-      box-shadow: 4px 6px 42px 8px rgb(248, 247, 246);
       background-size: 100% 100%;
       animation: changeImage 20s linear infinite;
 
@@ -231,7 +230,7 @@ slide-show*{
 }
 .one{
       float: right;
-      margin-top: 30px;
+      margin-top: 50px;
       margin-bottom: 13px;
       margin-left: 10px;
       margin-right: 13px;
@@ -251,7 +250,7 @@ slide-show*{
 }
 .three{
       float: right;
-      margin-top: 85px;
+      margin-top: 50px;
       margin-bottom: 13px;
       margin-left: 10px;
       margin-right: 13px;
@@ -432,6 +431,76 @@ slide-show*{
 
       margin-top: 0px;
       margin-bottom: 0px;
+}
+@media (max-width: 1517px){
+      .dining img{
+            height: 250px;
+            width: 250px;
+      }
+      .table p{
+            font-size: 15px;
+      }
+     .table{
+      height: 350px;
+      margin-left: 70PX;
+     }
+
+     .bedroom img{
+      height: 250px;
+      width: 250px;
+}
+.bed p{
+      font-size: 15px;
+}
+.bed{
+height: 350px;
+}
+.bathroom img{
+      height: 250px;
+      width: 250px;
+}
+.washroom p{
+      font-size: 15px;
+}
+.washroom{
+height: 350px;
+margin-left: 70PX;
+}
+}
+
+ 
+@media (max-width: 1272px){
+      .dining img{
+            margin-left: 0px;
+            margin-right: 0px;
+      }
+      .table p{
+            font-size: 13px;
+      }
+      .table{
+            margin-left: 0px;
+}
+.bedroom img{
+      margin-left: 0px;
+      margin-right: 0px;
+}
+.bed p{
+      font-size: 13px;
+}
+.bed{
+      margin-right: 0px;
+}
+
+.bathroom img{
+   margin-left: 0px;
+   margin-right: 0px;
+}
+.washroom p{
+      font-size: 13px;
+}
+.washroom{
+      margin-left: 0px;
+}
 }
 
 
